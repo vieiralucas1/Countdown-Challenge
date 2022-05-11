@@ -1,0 +1,110 @@
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+	--light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+  font-family: Poppins, sans-serif;
+}
+
+header img {
+  width: 85.375rem;
+  height: 8.3125rem;
+}
+
+.content img {
+  width: 37.9375rem ;
+  height: 27.1875rem;
+  padding-top: 1rem;
+}
+
+.bottom img {
+  width: 85.375rem;
+  height: 14.3125rem;
+}
+
+h1 {
+  color: var(--purple);
+  font-size: 2.25rem;
+  font-weight: 500 bold;
+  margin: 0rem;
+  padding-top: 3.375rem;
+  padding-bottom: 1.1rem;
+  width: 40rem;
+  letter-spacing: 0.656rem;
+}
+.clock {
+  display: flex;
+}
+p {
+  padding-left: 2rem;
+  /* padding-right: 3.6875rem; */
+  color: var(--light-grey)  ;
+  font-size: 1.31rem;
+  margin: 0rem;
+  font-family: 300;
+}
+#seconds {
+  padding-left: .5rem;
+}
+.clock p {
+  padding-right: 3.6875rem;
+  padding-left: 3.6rem;
+}
+.countdown {
+  width: 31rem;
+}
+
+.timer {
+  display: flex;
+}
+.timer p {
+  font-size: 4.9rem;
+  color: var(--black);
+  /* width: 30.875rem; */
+  margin: 0rem;
+}
+
+h2 {
+  color: var(--text-color);
+  font-size: 1.31rem;
+  font-weight: 300;
+  width: 40rem;
+  text-align: center;
+}
+
+button {
+  background: var(--purple);
+  color: white;
+  border: none;
+  border-radius: .5rem;
+  width: 10rem;
+  height: 2.875rem;
+
+  font-size: 1.31rem;
+  font-weight: 300;
+
+  justify-content: center;
+  text-align: center;
+}
+
+body{
+  width: 85.375rem;
+  height: auto;
+  margin: 0;
+
+}
+
+.content {
+  display: flex;
+  width: 85.375rem;
+
+  justify-content: space-between;
+  padding-left: 7.687rem;
+  padding-right: 3.75rem;
+  /* height: auto; */
+}
+
+.subscribe {
+  width: 40rem;
+  text-align: center;
+}
